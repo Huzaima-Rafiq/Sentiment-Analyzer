@@ -1,6 +1,6 @@
 # Sentiment Analyzer App
 
-A web-based sentiment analysis tool built with **Python** and **Streamlit**. This app allows users to input text and instantly see whether the sentiment is **positive**, **negative**, or **neutral**. Ideal for quick text evaluations using Natural Language Processing (NLP).
+A web-based sentiment analysis tool built with **Python** and **Streamlit**. This app allows users to input text and instantly see whether the sentiment is **positive**, **negative**, or **neutral**. Ideal for quick text evaluations using Natural Language Processing (NLP) textblob.
 
 ## Features
 
@@ -53,7 +53,7 @@ streamlit run app.py
 ## How It Works
 
 1. User enters a sentence or phrase in the input field.
-2. The text is processed using a built-in NLP model.
+2. The text is processed using a built-in library textblob.
 3. The sentiment is evaluated as **positive**, **negative**, or **neutral**.
 4. The result is displayed instantly on the screen.
 
@@ -67,7 +67,6 @@ sentiment-analyzer-app/
 ├── app.py              # Main Streamlit application
 ├── requirements.txt    # List of dependencies
 ├── README.md           # Project documentation
-└── (Additional modules if any)
 ```
 
 ---
